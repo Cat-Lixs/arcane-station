@@ -6,6 +6,8 @@
   components:
     - type: Sprite
       sprite: _Arcane/Clothing/Back/Backpacks/adjutant.rsi
+    - type: Clothing
+      sprite: _Arcane/Clothing/Back/Backpacks/adjutant.rsi
 
 - type: entity
   parent: ClothingBackpack
@@ -14,4 +16,6 @@
   description: Predominantly composed of multiforaments tied together with threads.
   components:
     - type: Sprite
+      sprite: _Arcane/Clothing/Back/Backpacks/command_maid.rsi
+    - type: Clothing
       sprite: _Arcane/Clothing/Back/Backpacks/command_maid.rsi

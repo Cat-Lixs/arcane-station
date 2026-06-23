@@ -75,7 +75,7 @@
       time: 9000 # 2.5 hrs
   startingGear: LawyerGear
   icon: "JobIconLawyer"
-  supervisors: job-supervisors-IAA # Arcane-Edit
+  supervisors: job-supervisors-iaa # Arcane-Edit
   guides: # goobstation
   - SpaceLaw
 #  - LegalSOP # Orion-Edit: Removed because dont have this SOP

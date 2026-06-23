@@ -1,1 +1,1 @@
-job-supervisors-IAA = агенту внутренних дел
+job-supervisors-iaa = агенту внутренних дел

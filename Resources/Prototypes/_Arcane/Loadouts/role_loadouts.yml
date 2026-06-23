@@ -21,7 +21,7 @@
   groups:
   - CommandMaidHead
   - CommandMaidJumpsuit
-  - CommandMaidneck
+  - CommandMaidNeck
   - CommandMaidBackpack
   - CommandMaidGloves
   - CommandMaidShoes

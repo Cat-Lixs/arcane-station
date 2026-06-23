@@ -17,7 +17,7 @@
 - type: entity
   parent: [ClothingHeadset, BaseCommandContraband]
   id: ClothingHeadsetCommandMaid
-  name: сommand maid headset
+  name: command maid headset
   description: A headset for command maid.
   components:
   - type: ContainerFill
@@ -43,6 +43,8 @@
         - EncryptionKeyIAA
     - type: Sprite
       sprite: Clothing/Ears/Headsets/servicesecurity.rsi
+    - type: Clothing
+      sprite: Clothing/Ears/Headsets/servicesecurity.rsi
 
 - type: entity
   parent: ClothingHeadset
@@ -56,4 +58,6 @@
         - EncryptionKeyCommon
         - EncryptionKeyLegal
     - type: Sprite
+      sprite: Clothing/Ears/Headsets/servicesecurity.rsi
+    - type: Clothing
       sprite: Clothing/Ears/Headsets/servicesecurity.rsi

@@ -87,7 +87,7 @@
     - state: "insert_overlay"
       map: [ "enum.PdaVisualLayers.Pen" ]
   - type: Pda
-    id: AdjutantIDCard
+    id: IAAIDCard
   - type: PdaBorderColor
     borderColor: "#000000"
     accentVColor: "#ffffff"

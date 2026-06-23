@@ -23,7 +23,7 @@
 
 - type: loadoutGroup
   id: AdjutantOuterClothing
-  name: loadout-group-adj-outerClothing
+  name: loadout-group-adj-outerclothing
   loadouts:
   - AdjutantCoat
 
@@ -63,7 +63,7 @@
   - CommandMaidShoesLaceup
 
 - type: loadoutGroup
-  id: CommandMaidneck
+  id: CommandMaidNeck
   name: loadout-group-command-maid-neck
   loadouts:
   - CommandMaidNeckBowTie

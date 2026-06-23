@@ -326,6 +326,7 @@ namespace Content.Client.Stylesheets
         // Orion-Start
         public static readonly Color ButtonColorCentralCommand = Color.FromHex("#0c344d");
         public static readonly Color ButtonColorCommand = Color.FromHex("#334E6D");
+        public static readonly Color ButtonColorLegal = Color.FromHex("#755C48");
         public static readonly Color ButtonColorSecurity = Color.FromHex("#DE3A3A");
         public static readonly Color ButtonColorMedical = Color.FromHex("#52B4E9");
         public static readonly Color ButtonColorEngineering = Color.FromHex("#EFB341");
@@ -1522,6 +1523,13 @@ namespace Content.Client.Stylesheets
                     new SelectorElement(typeof(MenuButton), new[] {MenuButton.StyleClassRedTopButton}, null, new[] {ContainerButton.StylePseudoClassNormal}),
                     new[]
                     {
+                        new StyleProperty(Control.StylePropertyModulateSelf, ButtonColorLegal),
+                    }),
+
+                new StyleRule(
+                    new SelectorElement(typeof(MenuButton), new[] {MenuButton.StyleClassRedTopButton}, null, new[] {ContainerButton.StylePseudoClassNormal}),
+                    new[]
+                    {
                         new StyleProperty(Control.StylePropertyModulateSelf, ButtonColorSecurity),
                     }),
 
@@ -1996,6 +2004,11 @@ namespace Content.Client.Stylesheets
                     .Prop(Control.StylePropertyModulateSelf, ButtonColorCommand),
                 Element<Button>().Class("ButtonColorCommandDepartment").Pseudo(ContainerButton.StylePseudoClassNormal)
                     .Prop(Control.StylePropertyModulateSelf, ButtonColorCommand),
+
+                Element<Button>().Class("ButtonColorLegalDepartment")
+                    .Prop(Control.StylePropertyModulateSelf, ButtonColorLegal),
+                Element<Button>().Class("ButtonColorLegalDepartment").Pseudo(ContainerButton.StylePseudoClassNormal)
+                    .Prop(Control.StylePropertyModulateSelf, ButtonColorLegal),
 
                 Element<Button>().Class("ButtonColorSecurityDepartment")
                     .Prop(Control.StylePropertyModulateSelf, ButtonColorSecurity),
