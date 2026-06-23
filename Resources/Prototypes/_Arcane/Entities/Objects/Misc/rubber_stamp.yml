@@ -20,7 +20,7 @@
   components:
     - type: Stamp
       stampedName: stamp-component-stamped-name-iaa
-      stampedColor: "#33CC33"
+      stampedColor: "#773600"
       stampState: "paper_stamp-centcom"
     - type: Sprite
       sprite: _Arcane/Objects/Misc/stamps.rsi
