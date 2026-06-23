@@ -105,7 +105,7 @@
   description: department-Cargo-description
   color: "#A46106"
   # Orion-Start
-  weight: -7
+  weight: -8
   buttonStyle: ButtonColorCargoDepartment
   # Orion-End
   roles:
@@ -116,12 +116,25 @@
   - Bitrunner # Orion
 
 - type: department
+  id: Legal
+  name: department-Legal
+  description: department-Legal-description
+  color: "#755C48"
+  # Orion-Start
+  weight: -3
+  buttonStyle: ButtonColorCargoDepartment
+  # Orion-End
+  roles:
+  - IAA
+  - Lawyer
+
+- type: department
   id: Civilian
   name: department-Civilian
   description: department-Civilian-description
   color: "#9FED58"
   # Orion-Start
-  weight: -8
+  weight: -9
   buttonStyle: ButtonColorCivilianDepartment
   # Orion-End
   roles:
@@ -133,7 +146,6 @@
   - Clown
   - HeadOfPersonnel
   - Janitor
-  - Lawyer
   - Librarian
   - Mime
   - Musician
@@ -209,6 +221,9 @@
   - DeathSquad
   - HecuOperative
   - CommandMaid # event-restricted, Goobstation
+  # Arcane-Start
+  - Adjutant
+  # Arcane-End
   primary: false
 #  weight: 100 # Orion-Edit: Moved
 
@@ -218,7 +233,7 @@
   description: department-Engineering-description
   color: "#EFB341"
   # Orion-Start
-  weight: -4
+  weight: -5
   buttonStyle: ButtonColorEngineeringDepartment
   # Orion-End
   roles:
@@ -233,7 +248,7 @@
   description: department-Medical-description
   color: "#52B4E9"
   # Orion-Start
-  weight: -6
+  weight: -7
   buttonStyle: ButtonColorMedicalDepartment
   # Orion-End
   roles:
@@ -251,7 +266,7 @@
   description: department-Security-description
   color: "#DE3A3A"
   # Orion-Start
-  weight: -3
+  weight: -4
   buttonStyle: ButtonColorSecurityDepartment
   # Orion-End
   roles:
@@ -269,7 +284,7 @@
   description: department-Science-description
   color: "#D381C9"
   # Orion-Start
-  weight: -5
+  weight: -6
   buttonStyle: ButtonColorScienceDepartment
   # Orion-End
   roles:
@@ -284,7 +299,7 @@
   description: department-Silicon-description
   color: "#D381C9"
   # Orion-Start
-  weight: -9
+  weight: -10
   buttonStyle: ButtonColorSiliconDepartment
   # Orion-End
   roles:

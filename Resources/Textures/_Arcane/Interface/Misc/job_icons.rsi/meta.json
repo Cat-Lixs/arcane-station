@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "license": "CLA",
+  "copyright": "Made by Bulbo44kkey for Arcane Station SS14 | IAA ",
+  "size": {
+    "x": 8,
+    "y": 8
+  },
+  "states": [
+    {
+        "name": "Adjutant"
+    },
+    {
+        "name": "CommandMaid"
+    },
+    {
+        "name": "IAA"
+    },
+    {
+        "name": "Shrambled",
+        "delays":
+        [
+            [0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2]
+        ]
+    }
+  ]
+}

@@ -20,7 +20,7 @@ bark-name-strong = Сильный
 bark-name-alien = Инопланетный
 bark-name-ethereal = Эфирный
 
-bark-name-ace-attorney = Адвокат
+bark-name-ace-attorney = Юрист
 bark-name-dont-starve-wilson = Уилсон (Don't Starve)
 bark-name-dont-starve-wolfgang = Вольфганг (Don't Starve)
 bark-name-dont-starve-woodie = Вуди (Don't Starve)

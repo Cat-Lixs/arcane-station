@@ -547,15 +547,15 @@
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: Admin
   allowSelection: false
-
-- type: jobIcon
-  parent: JobIcon
-  id: JobIconCommandMaid #Goobstation
-  icon:
-    sprite: /Textures/Interface/Misc/job_icons.rsi
-    state: CommandMaid
-  allowSelection: false
-
+# Arcane-Start
+# - type: jobIcon
+#   parent: JobIcon
+#   id: JobIconCommandMaid #Goobstation
+#   icon:
+#     sprite: /Textures/Interface/Misc/job_icons.rsi
+#     state: CommandMaid
+#   allowSelection: false
+# Arcane-End
 - type: jobIcon
   parent: JobIcon
   id: JobIconPartyMaker #Goobstation

@@ -39,6 +39,7 @@ public sealed partial class AccessLevelControl : GridContainer
         {
             "ButtonColorCentralCommandDepartment",
             "ButtonColorCommandDepartment",
+            "ButtonColorLegalDepartment",
             "ButtonColorSecurityDepartment",
             "ButtonColorMedicalDepartment",
             "ButtonColorEngineeringDepartment",

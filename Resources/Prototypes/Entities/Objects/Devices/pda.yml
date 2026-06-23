@@ -1026,7 +1026,7 @@
     layers:
     - map: [ "enum.PdaVisualLayers.Base" ]
       state: pda_base
-      color: "#003153"
+      color: "#7d4f29"
     - state: pda_buttons
     - map: [ "enum.PdaVisualLayers.Screen" ]
       state: pda_screen_borders
@@ -1038,7 +1038,7 @@
       map: [ "enum.PdaVisualLayers.IdLight" ]
       shader: unshaded
       visible: false
-    - state: "insert_overlay" # Goob
+    - state: "insert_overlay"
       map: [ "enum.PdaVisualLayers.Pen" ]
   # Orion-End
   - type: Pda
@@ -1050,7 +1050,7 @@
         tags:
         - Write
   - type: PdaBorderColor
-    borderColor: "#003153" # Orion-Edit
+    borderColor: "#7d4f29" # Orion-Edit
 
 - type: entity
   parent: LawyerPDA

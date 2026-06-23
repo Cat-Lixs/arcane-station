@@ -1,0 +1,54 @@
+- type: roleLoadout
+  id: JobAdjutant
+  groups:
+  - AdjutantHead
+  - AdjutantJumpsuit
+  - AdjutantOuterClothing
+  - AdjutantBackpack
+  - Trinkets
+  - Animals
+  - GroupSpeciesBreathTool
+  - Survival
+  - Undershirt
+  - Underwear
+  - Socks
+  - Wrists
+  - Bra
+  - Pants
+
+- type: roleLoadout
+  id: JobCommandMaid
+  groups:
+  - CommandMaidHead
+  - CommandMaidJumpsuit
+  - CommandMaidneck
+  - CommandMaidBackpack
+  - CommandMaidGloves
+  - CommandMaidShoes
+  - Trinkets
+  - Animals
+  - GroupSpeciesBreathTool
+  - Survival
+  - Undershirt
+  - Underwear
+  - Socks
+  - Wrists
+  - Bra
+  - Pants
+
+- type: roleLoadout
+  id: JobIAA
+  groups:
+  - Inventory
+  - IAAJumpsuit
+  - CommonBackpack
+  - Trinkets
+  - Animals
+  - GroupSpeciesBreathTool
+  - Survival
+  - Undershirt
+  - Underwear
+  - Socks
+  - Wrists
+  - Bra
+  - Pants

@@ -306,17 +306,19 @@
   - type: PresetIdCard
     job: SecurityClown
 
-- type: entity
-  parent: IDCardStandard
-  id: CommandMaidIDCard
-  name: command maid ID card
-  components:
-  - type: Sprite
-    layers:
-    - state: default
-    - state: idcommandmaid
-  - type: PresetIdCard
-    job: CommandMaid
+# Arcane-start
+# - type: entity 
+#   parent: IDCardStandard
+#   id: CommandMaidIDCard
+#   name: command maid ID card
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: default
+#     - state: idcommandmaid
+#   - type: PresetIdCard
+#     job: CommandMaid
+# Arcane-end
 
 - type: entity
   parent: IDCardStandard

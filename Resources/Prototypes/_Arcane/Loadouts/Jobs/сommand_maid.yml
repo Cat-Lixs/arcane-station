@@ -1,0 +1,64 @@
+- type: loadout
+  id: CommandMaidJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformDressCommandMaid
+
+- type: loadout
+  id: CommandMaidJumpskirtAlt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCommandMaid
+
+- type: loadout
+  id: CommandMaidJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformMajordomCommandMaid
+
+- type: loadout
+  id: CommandMaidBackpack
+  equipment:
+    back: ClothingBackpackCommandMaid
+
+- type: loadout
+  id: CommandMaidCap
+  equipment:
+    head: ClothingHeadHatCommandMaid
+
+- type: loadout
+  id: CommandMaidBowsCap
+  equipment:
+    head: ClothingHeadHatBowsCommandMaid
+
+- type: loadout
+  id: CommandMaidBlackCap
+  equipment:
+    head: ClothingHeadHatBlackCommandMaid
+
+- type: loadout
+  id: CommandMaidGloves
+  equipment:
+    gloves: ClothingHandsGlovesCommandMaid
+
+- type: loadout
+  id: CommandMaidShoes
+  equipment:
+    shoes: ClothingShoesBootsCommandMaid
+
+- type: loadout
+  id: CommandMaidShoesLaceup
+  equipment:
+    shoes: ClothingShoesBootsLaceup
+
+- type: loadout
+  id: CommandMaidNeckBowTie
+  equipment:
+    neck: ClothingNeckTieBowCommandMaid
+
+- type: loadout
+  id: CommandMaidNeckShortTie
+  equipment:
+    neck: ClothingNeckShortTieCommandMaid
+
+- type: loadout
+  id: CommandMaidNeckMediumTie
+  equipment:
+    neck: ClothingNeckMediumTieCommandMaid

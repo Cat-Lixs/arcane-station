@@ -1,0 +1,32 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckTieBowCommandMaid
+  name: bow tie
+  description: Lightweight, velvet, uninhibited movement, on one shoulder, as if it speaks to your precarious position of command..
+  components:
+    - type: Sprite
+      sprite: _Arcane/Clothing/Neck/Ties/bow-tie.rsi
+    - type: Clothing
+      sprite: _Arcane/Clothing/Neck/Ties/bow-tie.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckShortTieCommandMaid
+  name: short tie
+  description: Lightweight, velvet, uninhibited movement, on one shoulder, as if it speaks to your precarious position of command..
+  components:
+    - type: Sprite
+      sprite: _Arcane/Clothing/Neck/Ties/short-tie.rsi
+    - type: Clothing
+      sprite: _Arcane/Clothing/Neck/Ties/short-tie.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMediumTieCommandMaid
+  name: medium tie
+  description: Lightweight, velvet, uninhibited movement, on one shoulder, as if it speaks to your precarious position of command..
+  components:
+    - type: Sprite
+      sprite: _Arcane/Clothing/Neck/Ties/medium-tie.rsi
+    - type: Clothing
+      sprite: _Arcane/Clothing/Neck/Ties/medium-tie.rsi

@@ -1,0 +1,47 @@
+- type: job
+  id: CommandMaid
+  name: job-name-command-maid
+  description: job-description-command-maid
+  playTimeTracker: JobCommandMaid
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Civilian
+      time: 36000
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 12000
+  startingGear: CommandMaidGear
+  icon: "JobIconCommandMaid"
+  supervisors: job-supervisors-command
+  goobcoins: 10 
+  salary: 100
+  payrollDepartmentAccount: Command
+  canBeAntag: false
+  displayWeight: 0
+  weight: 5
+  access:
+  - Command
+  - Service
+  - Maintenance
+  special:
+    - !type:AddImplantSpecial
+      implants: [MindShieldImplant]
+    - !type:AddComponentSpecial
+      components:
+        - type: CommandStaff
+        - type: Condemned
+          soulOwnedNotDevil: true
+        - type: AdditionalLanguage
+          speaks:
+          - CorporateCodespeak
+          understands:
+          - CorporateCodespeak
+
+- type: startingGear
+  id: CommandMaidGear
+  equipment:
+    id: CommandMaidPDA
+    ears: ClothingHeadsetCommandMaid
+  storage:
+    back:
+    - Flash

@@ -75,14 +75,14 @@
       time: 9000 # 2.5 hrs
   startingGear: LawyerGear
   icon: "JobIconLawyer"
-  supervisors: job-supervisors-hop
+  supervisors: job-supervisors-IAA # Arcane-Edit
   guides: # goobstation
   - SpaceLaw
 #  - LegalSOP # Orion-Edit: Removed because dont have this SOP
   goobcoins: 10 #Goob content
   # Orion-Start
   salary: 50
-  payrollDepartmentAccount: Service
+  payrollDepartmentAccount: Legal # Arcane-Edit
   # Orion-End
   access:
   - Service
@@ -100,7 +100,7 @@
   equipment:
     shoes: ClothingShoesBootsLaceup
     id: LawyerPDA
-    ears: ClothingHeadsetSecurity
+    ears: ClothingHeadsetLawyer # Arcane-Add
   inhand:
     - BriefcaseBrownFilled
   storage:
