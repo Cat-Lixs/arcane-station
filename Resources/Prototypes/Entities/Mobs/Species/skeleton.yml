@@ -101,6 +101,7 @@
       Male: Skeleton
       Female: Skeleton
       Unsexed: Skeleton
+      Futanari: Skeleton # Arcane-edit
   - type: LanguageKnowledge # Einstein Engines - Language
     speaks:
     - TauCetiBasic
@@ -131,6 +132,7 @@
       methods: [ Touch ]
       effects:
       - !type:WashCreamPieReaction
+      - !type:WashCumOverlayReaction # Arcane
     - reagents: [ Milk, MilkGoat, MilkSoy, MilkSpoiled ]
       # add new types of milk to reagents as they appear, oat milk isn't on the list
       # because turns out oat milk has 1/30th the amount of calcium in it compared to the rest
@@ -180,6 +182,8 @@
   - type: TypingIndicator
     proto: skeleton
   - type: FacehuggerImmune # Goobstation - Xenomorphs
+  - type: GrabIntent #goob
+  - type: Grabbable #goob
 
 - type: entity
   parent: BaseSpeciesDummy
